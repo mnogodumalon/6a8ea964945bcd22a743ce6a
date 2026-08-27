@@ -9,6 +9,7 @@ import { Layout } from '@/components/Layout';
 import DashboardReady from '@/pages/DashboardReady';
 import PublicPagesAdmin from '@/pages/PublicPagesAdmin';
 // <custom:imports>
+const IntentSchichtEinplanenPage = lazy(() => import('@/pages/intents/SchichtEinplanenPage'));
 // </custom:imports>
 
 // Lazy: public pages live outside <Layout> and only load on /#/public/:slug —
@@ -64,6 +65,7 @@ export default function App() {
                 <Route index element={<DashboardReady />} />
                 <Route path="verwaltung/oeffentliche-seiten" element={<PublicPagesAdmin />} />
                 {/* <custom:routes> */}
+                <Route path="intents/schicht-einplanen" element={<Suspense fallback={null}><IntentSchichtEinplanenPage /></Suspense>} />
                 {/* </custom:routes> */}
               </Route>
             </Routes>
