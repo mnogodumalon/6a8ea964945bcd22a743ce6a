@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "Mitarbeiterverwaltung": {
+      "placeholders_set": 8,
+      "defaults_keys": ["beschaeftigungsart"],
+      "computed_keys": [],
+      "reason": "Reine Stammdatenverwaltung für Arbeitskräfte — keine berechenbaren Felder (kein Preise, keine Daten-Paare, keine applookup-Ketten zu numerischen Zielen)"
+    },
+    "Schichttypen": {
+      "placeholders_set": 6,
+      "defaults_keys": ["pausendauer"],
+      "computed_keys": [],
+      "reason": "Schichttypen sind Stammdaten mit Zeitangaben und Pausen — kein Dauer-Berechnung möglich (startzeit/endzeit sind Strings, nicht echte date-Felder für dateDiff)"
+    },
+    "Schichtplanung": {
+      "placeholders_set": 5,
+      "defaults_keys": ["datum"],
+      "computed_keys": [],
+      "reason": "Reine Zuordnung (Mitarbeiter + Schichttyp + Datum) — keine berechenbaren Größen, keine Preise, keine Aggregationen nötig"
+    }
+  }
+}

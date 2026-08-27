@@ -1,0 +1,27 @@
+{
+  "MitarbeiterverwaltungDialog.tsx": {
+    "vorname": "z. B. Max",
+    "nachname": "z. B. Müller",
+    "telefon": "z. B. +49 30 12345678",
+    "email": "z. B. max.mueller@example.com",
+    "abteilung": "z. B. Verkaufsleitung",
+    "position": "z. B. Schichtleiter",
+    "beschaeftigungsart": "z. B. Vollzeit, Teilzeit",
+    "notizen": "Besonderheiten, Qualifikationen, Verfügbarkeiten..."
+  },
+  "SchichttypenDialog.tsx": {
+    "bezeichnung": "z. B. Frühschicht",
+    "kuerzel": "z. B. FS",
+    "startzeit": "z. B. 06:00",
+    "endzeit": "z. B. 14:00",
+    "pausendauer": "z. B. 30",
+    "beschreibung": "Arbeitszeiten, besondere Anforderungen, Besetzung..."
+  },
+  "SchichtplanungDialog.tsx": {
+    "datum": "Wann startet die Schicht?",
+    "mitarbeiter": "Mitarbeiter wählen",
+    "schichttyp": "Schichttyp wählen",
+    "bereich": "z. B. Kasse, Lager",
+    "anmerkungen": "Spezielle Anweisungen, Vertretungen, Besonderheiten..."
+  }
+}
